@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, h1{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    display: flex;
+}
+
+.imagen{
+    width: 100%;
+}
+.imagen img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+
+}
+.texto{
+
+}

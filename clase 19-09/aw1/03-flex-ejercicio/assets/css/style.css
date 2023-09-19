@@ -1,0 +1,93 @@
+/* root */
+:root {
+     font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif; 
+}
+/* Modelo de caja alternativo */
+* {
+    box-sizing: border-box;
+}
+/* quitar margeners y rellenos */
+html,
+body,
+h1,
+h2,
+h5,
+p,
+figure {
+    padding: 0%;
+    margin: 0%;
+}
+/* html/body alto 100% */
+html,
+body {
+    height: 100%;
+}
+
+/* body */
+body {
+    display: flex;
+    flex-direction: column
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+}
+.header__titulo {
+    /****************** */
+}
+.header__menu {
+    /****************** */
+}
+.header__menu > a {
+    /****************** */
+}
+
+/* main */
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.article {
+    display: flex;
+}
+.article__figure {
+    display: flex;
+    width: 100%;
+}
+.article__figure > img {
+    /****************** */
+}
+.article__nota {
+    /****************** */
+}
+.article__titulo {
+    /****************** */
+}
+.article__parrafo {
+    /****************** */
+}
+/* media query  ancho minimo -> 600px*/
+@media (min-width: 600px) {
+    .article {
+        /****************** */
+    }
+
+    .article__figure {
+        /****************** */
+    }
+    .article__nota {
+        /****************** */
+    }
+}
+/* footer */
+.footer {
+    /****************** */
+}
+.footer__referencia {
+    /****************** */
+}
